@@ -1,0 +1,21 @@
+.launce-table{
+    tr{
+        td{
+            span{
+                padding: 5px 15px;
+                &.bg-danger{
+                    background: #fde2e1 !important;
+                    color: #981b1c;
+                }
+                &.bg-success{
+                    background: #def7ec !important;
+                    color: #196450;
+                }
+                &.bg-warning{
+                    background: #fef3c7 !important;
+                    color: #9e5423;
+                }
+            }
+        }
+    }
+}
